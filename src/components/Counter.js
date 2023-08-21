@@ -90,8 +90,8 @@ import classes from './Counter.module.css';
 
 const Counter = () => {
   
-  const counter = useSelector(stat => stat.counter)
-  const showCounter = useSelector(state => state.showCounter)
+  const counter = useSelector(stat => stat.counter.counter)
+  const showCounter = useSelector(state => state.counter.showCounter)
   const dispatch = useDispatch()
   
   const incrementHandler = () => {
