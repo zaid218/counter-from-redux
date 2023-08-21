@@ -84,7 +84,7 @@
 //with reduxtoolkit
 
 
-import { counterActions } from "../store";
+import { counterActions } from "../store/counter";
 import { useSelector,useDispatch } from 'react-redux';
 import classes from './Counter.module.css';
 
